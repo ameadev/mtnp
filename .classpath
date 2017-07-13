@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Source/Core/src"/>
+	<classpathentry kind="src" path="Source/CoreTest/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="Source/Core/dep/gral-core-0.11.jar"/>
+	<classpathentry kind="lib" path="Source/Core/dep/petitpoucet.jar"/>
+	<classpathentry kind="lib" path="Source/Core/dep/VectorGraphics2D-0.11.jar"/>
+	<classpathentry kind="lib" path="lib/ant-contrib-1.0b3.jar"/>
+	<classpathentry kind="lib" path="lib/bcel-5.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-httpclient-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/ivy-1.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/xmltask.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

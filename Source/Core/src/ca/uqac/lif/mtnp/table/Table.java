@@ -69,6 +69,11 @@ public abstract class Table implements DataOwner
 	 * The types of values that a data cell can have
 	 */
 	public static enum Type {TEXT, NUMERIC};
+	
+	/**
+	 * The number of table column
+	 */
+	private int column_nbr;
 
 	public Table()
 	{
@@ -84,6 +89,20 @@ public abstract class Table implements DataOwner
 		super();
 		m_id = id;
 		m_title = "Table " + m_id;
+	}
+	
+	/**
+	 * Get number of table column
+	 */
+	public int getColumn_nbr() {
+		return column_nbr;
+	}
+
+	/**
+	 * Set number of table column
+	 */
+	public void setColumn_nbr(int column_nbr) {
+		this.column_nbr = column_nbr;
 	}
 
 	/**

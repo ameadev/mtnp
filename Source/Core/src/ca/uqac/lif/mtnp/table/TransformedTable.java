@@ -40,6 +40,13 @@ public class TransformedTable extends Table
 		super();
 		m_transformation = trans;
 		m_inputTables = tables;
+		int columnNbr=0;
+		for (Table inputTable : m_inputTables)
+		{
+			columnNbr = +inputTable.getColumn_nbr();
+		}
+       //Requires modification to take into account the new dimensions after the transformation
+		setColumn_nbr(columnNbr);
 	}
 	
 	@Override

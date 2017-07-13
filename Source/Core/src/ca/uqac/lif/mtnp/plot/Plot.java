@@ -181,6 +181,11 @@ public abstract class Plot
 		s_counterLock.unlock();
 		m_transformation = transformation;
 		setPalette(EGA);
+		//Define setKey according to number of table columns
+		if (table.getColumn_nbr()<=1)
+		{
+		   setKey(false);	
+		}
 	}
 
 	/**

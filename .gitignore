@@ -56,3 +56,4 @@ Source/**/.cproject
 
 # PDT-specific
 Source/**/.buildpath
+/bin/
